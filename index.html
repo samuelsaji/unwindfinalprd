@@ -509,9 +509,7 @@ Author URL: http://w3layouts.com
     </section>
     //content block1 -->
 
-    <!-- testimonail-section -->
-    <!-- testimonials section -->
-    <div>
+    <!-- testimonials section 
     <section class="w3l-testimonials" id="testimonials">
         <div class="cusrtomer-layout py-5">
             <div class="container py-md-5">
@@ -600,12 +598,13 @@ Author URL: http://w3layouts.com
                     </div>
                 </div>
             </div>
-            <!-- /grids -->
+        /grids -->
         </div>
-        </section>
-    </div>
+    </section>
     <!-- //testimonials section -->
-	<!-- end testimonail-section -->
+
+    
+    
 
     <!-- GALLERY section -->
     <section class="w3l-blog py-5" id="blog">
@@ -826,6 +825,41 @@ Author URL: http://w3layouts.com
     <!-- common jquery plugin -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <!-- //common jquery plugin -->
+
+
+    <!-- owlcarousel -->
+    <!-- script for tesimonials carousel slider -->
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo1").owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    768: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for tesimonials carousel slider -->
 
     <!-- slider-js -->
     <script src="assets/js/jquery.min.js"></script>
