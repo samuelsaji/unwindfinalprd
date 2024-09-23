@@ -18,7 +18,9 @@ Author URL: http://w3layouts.com
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    
     
 
 </head>
@@ -600,140 +602,99 @@ Author URL: http://w3layouts.com
     
     
 
-    <!-- GALLERY section -->
-    <section class="w3l-blog py-5" id="blog">
-        <div class="container py-lg-5 py-md-4 py-2">
-            <h5 class="sub-title text-center">Our Gallery</h5>
-            <h3 class="title-style text-center">Recent Pictures</h3>
-            <div class="row inner-sec-w3ls justify-content-center">
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a class="d-block">
-                                <img src="assets/images/gal1.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a  class="d-block">
-                                <img src="assets/images/gal3.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a class="d-block">
-                                <img src="assets/images/gal2.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a  class="d-block">
-                                <img src="assets/images/gal4.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a  class="d-block">
-                                <img src="assets/images/gal6.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a class="d-block">
-                                <img src="assets/images/gal5.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a  class="d-block">
-                                <img src="assets/images/gal4.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a class="d-block">
-                                <img src="assets/images/gal6.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a class="d-block">
-                                <img src="assets/images/gal5.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a class="d-block">
-                                <img src="assets/images/gal4.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a  class="d-block">
-                                <img src="assets/images/gal6.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
-                    <div class="card img">
-                        <div class="card-body img">
-                            <a  class="d-block">
-                                <img src="assets/images/gal5.JPG" alt="" class="img-fluid radius-image">
-                            </a>
-                            
-                        </div>
+  <!-- GALLERY section -->
+<section class="w3l-blog py-5" id="blog">
+    <div class="container py-lg-5 py-md-4 py-2">
+        <h5 class="sub-title text-center">Our Gallery</h5>
+        <h3 class="title-style text-center">Recent Pictures</h3>
+        <div class="row inner-sec-w3ls justify-content-center">
+            <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
+                <div class="card img">
+                    <div class="card-body img">
+                        <a href="assets/images/gal1.JPG" data-lightbox="gallery" class="d-block">
+                            <img src="assets/images/gal1.JPG" alt="" class="img-fluid radius-image">
+                        </a>
                     </div>
                 </div>
             </div>
-            
+            <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
+                <div class="card img">
+                    <div class="card-body img">
+                        <a href="assets/images/gal3.JPG" data-lightbox="gallery" class="d-block">
+                            <img src="assets/images/gal3.JPG" alt="" class="img-fluid radius-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
+                <div class="card img">
+                    <div class="card-body img">
+                        <a href="assets/images/gal2.JPG" data-lightbox="gallery" class="d-block">
+                            <img src="assets/images/gal2.JPG" alt="" class="img-fluid radius-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
+                <div class="card img">
+                    <div class="card-body img">
+                        <a href="assets/images/gal4.JPG" data-lightbox="gallery" class="d-block">
+                            <img src="assets/images/gal4.JPG" alt="" class="img-fluid radius-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
+                <div class="card img">
+                    <div class="card-body img">
+                        <a href="assets/images/gal6.JPG" data-lightbox="gallery" class="d-block">
+                            <img src="assets/images/gal6.JPG" alt="" class="img-fluid radius-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
+                <div class="card img">
+                    <div class="card-body img">
+                        <a href="assets/images/gal5.JPG" data-lightbox="gallery" class="d-block">
+                            <img src="assets/images/gal5.JPG" alt="" class="img-fluid radius-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
+                <div class="card img">
+                    <div class="card-body img">
+                        <a href="assets/images/gal7.JPG" data-lightbox="gallery" class="d-block">
+                            <img src="assets/images/gal7.JPG" alt="" class="img-fluid radius-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
+                <div class="card img">
+                    <div class="card-body img">
+                        <a href="assets/images/gal11.png" data-lightbox="gallery" class="d-block">
+                            <img src="assets/images/gal11.png" alt="" class="img-fluid radius-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-5">
+                <div class="card img">
+                    <div class="card-body img">
+                        <a href="assets/images/gal9.JPG" data-lightbox="gallery" class="d-block">
+                            <img src="assets/images/gal9.JPG" alt="" class="img-fluid radius-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Add additional images as needed -->
         </div>
-    </section>
-    <!-- //blog section -->
+    </div>
+</section>
+
 
     
 
